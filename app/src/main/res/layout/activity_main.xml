@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.terminali.sunshine.app.MainActivity">
+    android:id="@+id/container"
+    tools:context="com.example.terminali.sunshine.app.MainActivity" tools:ignore="MergeRootFrame">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
